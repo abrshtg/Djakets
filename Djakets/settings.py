@@ -47,7 +47,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:8080',
+    'http://localhost:8000',
 ]
 
 MIDDLEWARE = [
@@ -132,7 +132,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'image/'
+MEDIA_ROOT = BASE_DIR / 'media/'
 
 
 
